@@ -280,6 +280,7 @@ h6 {
   }
   .portfolio-item img {
     -webkit-transition: -webkit-clip-path 0.25s ease-out;
+    transition: ease-out .25s;
     -webkit-clip-path: inset(-1px);
     clip-path: inset(-1px);
   }

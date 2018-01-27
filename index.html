@@ -1,169 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+  <head>
 
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Alexander Choban's personal website.">
-    <meta name="author" content="Alexander Choban">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-    <title>Alexander Choban</title>
+    <title>Alexander Choban - Software Engineer</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 
-    <!-- Theme CSS -->
-    <link href="css/grayscale.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.min.css" rel="stylesheet">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+  </head>
 
-</head>
-
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
+  <body id="page-top">
     <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
-                    <i class="fa fa-play-circle"></i> <span class="light">Alexander</span> Choban
-                </a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#resume">Resume</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
+    <a class="menu-toggle rounded" href="#">
+      <i class="fa fa-bars"></i>
+    </a>
+    <nav id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+        <li class="sidebar-brand">
+          <a class="js-scroll-trigger" href="#page-top">Alexander Choban</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#page-top">Home</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#skills">Skills</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
+        </li>
+      </ul>
     </nav>
 
-    <!-- Intro Header -->
-    <header class="intro">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">Alexander</h1>
-                        <p class="intro-text">
-                            <span nowrap>IT Professional,</span>
-                            <span nowrap>Web Developer,</span>
-                            <span nowrap>Programmer,</span>
-                            <span nowrap>Server Admin,</span>
-                            <span nowrap>Star Wars Fan,</span>
-                            <span nowrap>Car Enthusiast,</span>
-                            <span nowrap>and Superhero</span>
-                        </p>
-                        <a href="#about" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <!-- Header -->
+    <header class="masthead d-flex">
+      <div class="container text-center my-auto">
+        <h1 class="mb-1">Alexander Choban</h1>
+        <!--h3 class="mb-5">
+          <em>Alexander the Great!</em>
+        </h3-->
+        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+      </div>
+      <div class="overlay"></div>
     </header>
 
-    <!-- About Section -->
-    <section id="about" class="container content-section text-center">
+    <!-- About -->
+    <section class="content-section bg-light" id="about">
+      <div class="container text-center">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>About Me</h2>
-                <p>I started programming at the age of 12 and I was hooked. I’ve been working full time in the world of IT for 8 years and even longer when including part time work. My experience includes everything from small CMS websites to designing, programming, and implementing custom .NET business management systems.</p>
-                <p>But my talents don’t just stop at the code, I also have experience with databases and project management. Check out my resume <a class="page-scroll" href="#resume">below</a>.</p>
-                <p>I also have a huge passion for cars and motor-sports. My favorite racing series is Formula 1 followed by the WRC for a close second. I adore Japanese sports cars, which is part of the reason why I currently drive a 2008 Mitsubishi Lancer Evolution X GSR, or LanEvo for short. I also enjoy going to the Indy 500 every year to get my dose of live action racing – even though they almost literally go in circles.</p>
-            </div>
+          <div class="col-lg-10 mx-auto">
+            <h2>
+              <span class="nowrap">IT Professional,</span>
+              <span class="nowrap">Web Developer,</span>
+              <span class="nowrap">Programmer,</span>
+              <span class="nowrap">Server Admin,</span>
+              <span class="nowrap">Star Wars Fan,</span>
+              <span class="nowrap">Car Enthusiast,</span>
+              <span class="nowrap">and Superhero</span>
+            </h2>
+            <p class="lead mb-5">
+              I'm a software enginner in the heart of Illinois. I work with Docker, ASP.NET Core, Node, React, and more!
+            </p>
+          </div>
         </div>
+      </div>
     </section>
 
-    <!-- Resume Section -->
-    <section id="resume" class="content-section text-center">
-        <div class="resume-section">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2><span>Resume</span></h2>
-                    <p><span>Feel free to check out and print my resume.</span></p>
-                    <a href="resume.html" class="btn btn-default btn-lg">View Resume</a>
-                </div>
-            </div>
+    <!-- Services -->
+    <section class="content-section bg-primary text-white text-center" id="skills">
+      <div class="container">
+        <div class="content-section-heading">
+          <h3 class="text-secondary mb-0">Skills</h3>
+          <h2 class="mb-5">What I Do</h2>
         </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact Me</h2>
-                <p>Feel free to find me on social media!</p>
-                <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="https://www.linkedin.com/in/alexander-choban-a132539a/" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">LinkedIn</span></a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/alexanderchoban" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/alexanderchoban" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                    </li>
-                </ul>
-            </div>
+          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-screen-smartphone"></i>
+            </span>
+            <h4>
+              <strong>Software Development</strong>
+            </h4>
+            <p class="text-faded mb-0">I can create apps and services in all sorts of languages. Right now I specialize in .NET, Docker, and Node.</p>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="fa fa-server"></i>
+            </span>
+            <h4>
+              <strong>Server Admin</strong>
+            </h4>
+            <p class="text-faded mb-0">I have expirence managing Windows and Linux web servers. I can setup and architech secure web and email hosting solutions.</p>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="fa fa-gamepad"></i>
+            </span>
+            <h4>
+              <strong>Gamer</strong>
+            </h4>
+            <p class="text-faded mb-0">I love playing video games, especially classic games and racing games. Forza, Golden Tee, Mario: I love them all.</p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="fa fa-area-chart"></i>
+            </span>
+            <h4>
+              <strong>Analyst</strong>
+            </h4>
+            <p class="text-faded mb-0">In everything I do, I like to solve problems. Whether it's software, hardware, automotive, or big data, I will break it down and create solutions. </p>
+          </div>
         </div>
+      </div>
     </section>
 
-    <!-- Map Section -->
-    <div id="map"></div>
+    <!-- Callout -->
+    <section class="callout">
+      <div class="container text-center">
+        <h2 class="mx-auto mb-5">Check out my <em>Resume</em></h2>
+        <p>
+          <a class="btn btn-primary btn-xl" href="https://github.com/alexanderchoban/resume/raw/master/AlexanderChobanResume.pdf">Download PDF</a>
+        </p>
+        <p>
+          <a href="https://github.com/alexanderchoban/resume">(View the source code for my resume.)</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="content-section" id="portfolio">
+      <div class="container">
+        <div class="content-section-heading text-center">
+          <h3 class="text-secondary mb-0">Portfolio</h3>
+          <h2 class="mb-5">Recent Projects</h2>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="https://github.com/alexanderchoban/OpenSBIS">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Open SBIS</h2> 
+                  <p class="mb-0">Open Small Business Inventory System is a side project I've been working on to create a simple inventory system designed for small businesses. This application is built on ASP.NET Core, React + Redux, and Docker.</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="https://github.com/alexanderchoban/StandUpTimer">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Stand Up Timer</h2>
+                  <p class="mb-0">You're supposed to get up and move around every 30 minutes. This annoying console app will beep at you when it's time to take a break.</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="https://github.com/alexanderchoban/resume">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>My Resume</h2>
+                  <p class="mb-0">Yes, you have to compile my resume. It's written with markdown and is converted to PDF using a Node module.</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="https://github.com/alexanderchoban">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Git Hub</h2>
+                  <p class="mb-0">Check me out on GitHub to see more!</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action 
+    <section class="content-section bg-primary text-white">
+      <div class="container text-center">
+        <h2 class="mb-4">The buttons below are impossible to resist...</h2>
+        <a href="#" class="btn btn-xl btn-light mr-4">Click Me!</a>
+        <a href="#" class="btn btn-xl btn-dark">Look at Me!</a>
+      </div>
+    </section> -->
 
     <!-- Footer -->
-    <footer>
-        <div class="container text-center">
-            <p>Copyright &copy; Alexander Choban 2017</p>
-        </div>
+    <footer class="footer text-center">
+      <div class="container">
+        <ul class="list-inline mb-5">
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white mr-3" href="https://www.linkedin.com/in/alexander-choban-a132539a/">
+              <i class="icon-social-linkedin"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white" href="https://github.com/alexanderchoban">
+              <i class="icon-social-github"></i>
+            </a>
+          </li>
+        </ul>
+        <p class="text-muted small mb-0">Copyright &copy; Alexander Choban 2018</p>
+      </div>
     </footer>
 
-    <!-- jQuery -->
-    <script src="vendor/jquery/jquery.js"></script>
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+      <i class="fa fa-angle-up"></i>
+    </a>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+    <!-- Custom scripts for this template -->
+    <script src="js/stylish-portfolio.min.js"></script>
 
-    <!-- Theme JavaScript -->
-    <script src="js/grayscale.min.js"></script>
-
-</body>
+  </body>
 
 </html>
